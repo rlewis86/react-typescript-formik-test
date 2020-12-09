@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { Fabric } from "@fluentui/react";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Fabric>
+      <App />
+    </Fabric>
   </React.StrictMode>,
   document.getElementById('root')
 );
